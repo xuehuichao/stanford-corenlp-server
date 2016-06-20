@@ -1,3 +1,5 @@
+# git submodule init && git submodule update && docker build -t stanford-corenlp-server . && docker run -d -p 8081:8081 -p 9990:9990 stanford-corenlp-server
+
 FROM 1science/sbt
 
 # install gradle
